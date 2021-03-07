@@ -1,0 +1,15 @@
+[package]
+name = "pub_ip"
+version = "0.1.0"
+authors = ["Ayrat Kaspranov (tramulns) <user@tramulns.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+clap = "2.33.3"
+reqwest = { version = "0.11.1", features = ["json"] }
+tokio = { version = "1.2.0", features = ["full"] }
+serde = { version = "1.0.124", features = ["derive"] }
+url = "2.2.1"
+error-chain = "0.12.4"
